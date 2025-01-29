@@ -15,3 +15,36 @@ const nums = [13, 87, 2, 89, 12, 4, 90, 63];
 
 const numsTimesTwo = nums.map((num) => num * 2);
 console.log(numsTimesTwo);
+
+//Reviewer:
+
+const petsArray = ['Rover', 'Snuffles', 'Toto', 'Spot'];
+
+const [firstPet, secondPet] = petsArray;
+
+console.log(firstPet);
+// Prints: 'Rover'
+console.log(secondPet);
+// Prints: 'Snuffles'
+
+// Equivalent in traditional bracket notation:
+console.log(petsArray[0]);
+// Prints: 'Rover'
+console.log(petsArray[1]);
+// Prints: 'Snuffles'
+
+// ! Exercise 2:
+// a. Given the provided `pizzaToppings` array, use destructuring to extract 
+//    the first and second values and place them into variables. Name the 
+//    variable that corresponds to the first value `firstIngredient`. Name the 
+//    variable that corresponds to the second value `secondIngredient`.
+//
+// b. Console log the `firstIngredient` and `secondIngredient` variables.
+//
+// Starting code (don't modify this):
+
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+
+// Your code here:
+
+
