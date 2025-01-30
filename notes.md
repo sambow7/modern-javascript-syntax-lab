@@ -6,3 +6,5 @@ Destructioning object: Extract properties from an object. Instead of accessing p
 
 Spread operator: (...)
 
+ternary operator = if...else = gives us a way to handle conditional logic in a single line of code
+
