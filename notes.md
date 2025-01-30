@@ -8,3 +8,4 @@ Spread operator: (...)
 
 ternary operator = if...else = gives us a way to handle conditional logic in a single line of code
 
+Remember, in JavaScript, falsy values include '' (empty strings), 0, null, undefined, NaN, and false. Everything else is considered truthy.
